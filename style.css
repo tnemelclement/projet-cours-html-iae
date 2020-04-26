@@ -1,0 +1,574 @@
+
+/******************************************************
+| Clément MOULY | Titouan LE COZ | Marianna Karpenko  |
+******************************************************/
+
+/******************************************************** GENERAL *********************************************/
+
+* 
+{
+	margin: 0; padding: 0; outline: 0;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+
+}
+h2 {
+	font-size: 30px;
+}
+
+.warpper {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#fontSpe {
+  	font-family: 'Crete Round', sans-serif;
+}
+
+
+
+/******************************************************* HAUT *******************************************************/
+ 
+header a {
+	text-decoration: none;
+}
+
+
+header h1 {
+  	font-size: 40px;
+	color: #444;
+	font-family: 'Crete Round', sans-serif;
+}
+
+
+header h2 {
+  	font-size: 28px;
+	font-style: italic;
+	color: #5C5C5C;
+	font-family: 'Crete Round', sans-serif;
+}
+
+#haut{
+	height: 150px;
+}
+
+
+#hautTitre{
+	float: left;
+	width: 68%;
+	padding: 3%;
+}
+
+#hautLog{
+	float: right;
+	text-align: center;
+	margin: 2%;
+	vertical-align: center;
+}
+
+/******************************************************* BARE DE NAVIGATION *******************************************************/
+
+.subMenu {
+  	height: 50px;
+  	z-index: 1000;
+  	width: 100%;
+  	background-color: black;
+	clear: both;
+}
+
+.subMenu .inner {
+  	padding:0;
+  	font-weight: 400;
+  	margin: 0 auto;
+}
+
+
+.subNavBtn {
+  	display: block;
+  	height: 35px;
+  	width: 16%;
+  	float: left;
+ 	margin: 0px 0px 0 0;
+ 	text-decoration: none;
+  	font-size: 18px;
+  	padding: 15px 2% 0 2%;
+  	text-align: center;
+  	color: #fff;
+	font-weight: bold;
+}
+
+.subMenu a:hover {
+  background: #444444;
+}
+
+
+/******************************************************* BODY ACCEUIL *******************************************************/
+
+#hero {
+	
+	background: url(http://tnemelc.fr/photo-html/hero.jpg) center;
+	height: 500px;
+}
+
+#fond {
+	
+	height: 500px;
+}
+
+#hero h2 {
+	text-align: center;
+	padding-top: 150px;
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+/*********************/
+
+#presentation {
+	padding: 50px 0;
+}
+
+#presentation h2 {
+	margin-top: 30px;
+	font-size: 40px;
+}
+
+#presentation p {
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#margeBas {
+	margin-bottom: 40px;
+}
+
+/*********************/
+
+#black {
+	height: 100px;
+	background-color: black;
+}
+
+/*********************/
+
+
+#contact {
+	padding: 70px 0 70px 0;
+	height: 400px
+}
+
+.floatContact {
+	float: left;
+	width: 45%;
+	padding-right: 30px;
+}
+
+#contact p {
+	margin-left: 30px;
+	height: 35px
+}
+
+#contact p label{
+	font-size: 25px;
+	height: 40px;
+}
+
+#contact p input{
+	font-size: 20px;
+	width: 350px;
+}
+
+.button-3{ 
+	font-size: 40px;
+	width: 15px;
+	height: 60px;
+	border-radius: 0px;
+	color: white;
+	background-color: black;
+}
+
+#contact h1 {
+	text-align: right;
+	font-size: 60px;
+}
+
+#ok {
+	margin-top: 70px
+}
+
+/******************************************************* BODY CAPTEUR *******************************************************/
+
+.principalCap{
+	background-color: white;
+	padding: 30px 0px 30px 0px;
+}
+	
+.col{
+	float: left;
+	width: 280;
+	background-color: green;
+	margin: 15px 30px 15px 0;;
+	text-align: center;
+	height: 200px;
+}
+
+.partHaut {
+	background-color: #444;
+	height: 50%;
+	color: white;
+}
+
+.partHaut h2 {
+	padding: 12px;
+}
+
+.partBas {
+	background-color: black;
+	height: 50%;
+}
+
+.partBas p {
+	padding-top: 5px; 
+	font-size: 70px;
+	text-align: center;
+	color: white;
+}
+
+#titreCapt {
+	padding-bottom: 15px
+}
+
+#titreCapt h2 {
+	font-size: 50px;
+}
+
+#titreCapt h4 {
+	font-size: 35px;
+	color: #444;
+	font-style: italic;
+}
+
+#capteur {
+	padding: 30px 0;
+	height: 600px
+}
+
+
+
+
+/******************************************************* BODY CONTROLE *******************************************************/
+#controle {
+	padding: 30px 0;
+}
+
+.piece {
+	background-color: #444;
+	height: 280px;
+	margin-top: 50px
+}
+
+.contTop {
+	background-color: #444;
+	height: 100px;
+}
+
+.contTopL {
+	float: left;
+	background-color: black;
+	height: 100px;
+	width: 480px
+}
+
+.contTopL h2 {
+	padding-top: 20px;
+	text-align: center;
+	color:white;
+	font-size: 50px;
+}
+
+.contTopR {
+	margin-left: 15px;
+	float: left;
+	height: 100px;
+	width: 215px
+}
+
+.contTopR h2 {
+	padding-top: 5px;
+	text-align: center;
+	color:white;
+	font-size: 40px;
+}
+
+.contTopR h3 {
+	padding-top: 6px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.contTopRname {
+	width: 215px;
+	background-color: black;
+	height: 60px;
+}
+
+.contTopRval {
+	width: 215px;
+	background-color: whitesmoke;
+	height: 40px;
+}
+
+.contBot {
+	
+}
+
+.contBloc {
+	margin: 20px 0 20px 20px;
+	width: 285px;
+	height: 140px;
+	background-color: whitesmoke;
+	float: left;
+}
+
+.contBloc .off h3{
+	text-align: center;
+	padding-top: 7px;
+	font-size: 40px;
+	color: white;
+}
+
+.contBloc .on h3{
+	text-align: center;
+	padding-top: 7px;
+	font-size: 40px;
+	color: white;
+}
+
+.contBloc .lumi h2{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 50px;
+	color: black;
+}
+
+.lumi {
+	height: 80px
+}
+
+.contBlocBot {
+	width: 285px;
+	height: 50px;
+	background-color: blue;
+}
+
+.off {
+	background-color: red;
+	width: 140px;
+	height:60px;
+	float: left;
+}
+
+.off:hover {
+	background-color: darkred;
+	
+}
+
+.on {
+	background-color: green;
+	width: 145px;
+	height:60px;
+	float: left;
+}
+
+.on:hover {
+	background-color: darkgreen;
+}
+
+/***************** TEMPERATURE *******************/
+.tempTop {
+	height: 70px
+}
+
+.tempTop h2 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5px;
+}
+
+.tempL {
+	float: left;
+	width: 215px;
+	height: 70px;
+}
+
+
+
+.tempR {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.tempTop .tempL {
+	background-color: whitesmoke;
+	
+}
+
+.tempBot {
+	height: 50px;
+}
+
+.tempBot h2 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5px;
+}
+
+.tempR h3 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 2px;
+}
+
+.tempBot .tempL {
+	background-color: black;
+}
+
+.tempBot .tempR {
+	background-color: red;
+}
+
+.tempTop .tempR {
+	background-color: green;
+}
+
+.tempBot .tempR:hover {
+	background-color: darkred;
+}
+
+.tempTop .tempR:hover {
+	background-color: darkgreen;
+}
+/*************** VOLET *******************/
+
+.volTop {
+	height: 70px
+}
+
+.volTop h2 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5px;
+}
+
+.volL {
+	float: left;
+	width: 215px;
+	height: 70px;
+}
+
+
+
+.volR {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.volTop .tempL {
+	background-color: whitesmoke;
+	
+}
+
+.volBot {
+	height: 50px;
+}
+
+.volBot h2 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5px;
+}
+
+.volR h3 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 2px;
+}
+
+.volBot .volL {
+	background-color: red;
+}
+
+.volBot .volR {
+	background-color: grey;
+}
+
+.volTop .volR {
+	background-color: black;
+}
+
+.volBot .volR:hover {
+	background-color: darkslateblue;
+}
+
+.volTop .volR:hover {
+	background-color: darkslateblue;
+}
+
+.volBot .volL:hover {
+	background-color: darkred;
+}
+
+
+#contBas {
+	height: 50px;
+	clear: both;
+}
+
+
+/******************************************************* BODY CONTROLE *******************************************************/
+
+.docCapt ul {
+	padding-left: 40px;
+}
+
+/******************************************************* FOOTER *******************************************************/
+
+footer {
+	clear:both;
+	height: 200px;
+	background-color: #000;
+}
+
+footer h1 {
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+.copyright {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	color: #777;
+}
+
+
+#connexion {
+	padding-top: 30px
+}
